@@ -17,8 +17,8 @@
 #define DEVICE_NAME "myUSBDriver"
 #define __bio_kunmap_atomic(addr, kmtype) kunmap_atomic(addr)
 
-#define PENDRIVE_VID        0x0781    //0x0781      // 0x1307  //   	  0x0781      // 	  0x1307  //   	 
-#define PENDRIVE_PID       0x5567 //0x5567         // 0x0163  //0x5567         //    0x5567//
+#define PENDRIVE_VID        0x0781    	 
+#define PENDRIVE_PID        0x5567 
 
 
 #define BOMS_RESET                    0xFF
@@ -28,7 +28,7 @@
 #define READ_CAPACITY_LENGTH	      0x08
 #define REQUEST_DATA_LENGTH           0x12
 #define	USB_ERROR_PIPE                -32
-#define RETRY_MAX						5
+#define RETRY_MAX			5
 #define REQUEST_SENSE_LENGTH          0x12
 #define INQUIRY_LENGTH                0x24
 #define be_to_int32(buf) (((buf)[0]<<24)|((buf)[1]<<16)|((buf)[2]<<8)|(buf)[3])
