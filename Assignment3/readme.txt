@@ -34,6 +34,3 @@ KERNEL LOGS:
 	For failure appropriate faliure cause will be printed
 
 NOTE: Please insert your flash drive only after the driver is inserted
-
-readme.txt
-Displaying readme.txt.
